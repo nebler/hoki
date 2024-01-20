@@ -1,0 +1,10 @@
+README.md:# bun-shell
+README.md:bun install
+README.md:bun run index.ts
+README.md:This project was created using `bun init` in bun v1.0.24. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Binary file bun.lockb matches
+index.ts:import { $, file } from 'bun';
+index.ts:await $`grep 'bun' * > ${file('output.txt')}`;
+package.json:  "name": "bun-shell",
+package.json:    "@types/bun": "latest"
+tsconfig.json:    "moduleResolution": "bundler",
